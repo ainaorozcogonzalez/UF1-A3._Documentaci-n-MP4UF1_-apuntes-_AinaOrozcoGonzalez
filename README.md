@@ -5,6 +5,7 @@
 ## Como crear un repositorio
  1. Crear un repositorio nuevo
 <img scr="img/rep1.png">
+ 2. Como configurar un repositorio nuevo.
 
     En “repository name” ponemos el nombre que queremos que tenga nuestro nuevo repositorio.
 
