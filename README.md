@@ -299,12 +299,12 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Donde:
 
-     - <!DOCTYPE html> — el tipo de documento. Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
+     -<!DOCTYPE html> — el tipo de documento. Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
 
 
-     - <html></html> — el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element). 
+     -<html></html> — el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element). 
 
-     - <head></head> — el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
+     -<head></head> — el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
         
         Incluye cosas como:
 
