@@ -282,3 +282,53 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     
 3. Estructura documento HTML
+
+    Un documento HTML tiene la siguiente estructura básica:
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Mi pagina de prueba</title>
+            <link rel="icon" href="favicon.png">
+        </head>
+        <body>
+            <img src="images/firefox-icon.png" alt="Mi imagen de prueba">
+        </body>
+        </html>
+
+    Donde:
+
+     - <!DOCTYPE html> — el tipo de documento. Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
+
+
+     - <html></html> — el elemento <html>. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element). 
+
+     - <head></head> — el elemento <head>. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. 
+        
+        Incluye cosas como:
+
+        - Palabras clave (keywords)
+
+        - Una descripción de la página que quieres que aparezca en resultados de búsquedas
+
+        - Código CSS para dar estilo al contenido
+
+        - Declaraciones del juego de caracteres: <meta />— <meta>. Añade metainformación a la página. Podemos poner varias marcas <meta> que dan información no visible del documento. En el caso del ejemplo, este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro. 
+
+        - El título de la página: <title></title> — el elemento <title> establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+
+        - El icono (llamado favicon) de la página. Podemos usar la etiqueta <link> y el atributo rel="icon" para agregar un favicon de navegador en HTML. El tamaño más común para crear un favicon es 16x16 píxeles. Sin embargo, también pueden aparecer en dimensiones un poco más grandes (32x32). Casi todos los navegadores modernos admiten imágenes PNG pero si nos encontramos con problemas, por ejemplo con navegadores como IE10 y sus versiones anteriores, podemos utilizar imágenes ICO.
+
+        - El enlace con otros ficheros relacionados con el documento (hojas de estilo, codigo Javascrip…), etc.
+    
+    - <body></body> — el elemento <body>. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás. Los elementos HTML descendientes de <body> se pueden clasificar en:
+
+        - Elementos de bloque (block elements). Son grandes estructuras que contienen otros elementos de bloque, elementos de línea o texto. Normalmente el navegador los muestra como bloques independientes y separa un bloque de otro con una línea en blanco. Son por ejemplo los títulos, los párrafos, las listas o las tablas.
+
+
+        - Elementos de línea (inline elements). Son pequeñas estructuras que representan o describen pequeños trozos de texto o datos. Pueden contener solo texto u otros elementos de línea. Normalmente el navegador los muestra en línea uno tras otro dentro del bloque que los contiene. Son un ejemplo los hiperenlaces, las citas o las imágenes.
+
+    Si lo comparamos con un procesador de textos, podemos pensar en un párrafo como un elemento de bloque y una palabra enfatizada en negrita como un elemento de línea.
+
+3. Estructura documento HTML
