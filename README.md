@@ -102,14 +102,13 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 
 Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
-    1. Recursos
+ 1. Recursos
 
-        Recurso: Adam Pritchard: GitHub. Explicación básica sintaxis Markdown 
-        Recurso: Página oficial Markdown - Sintaxis Markdown
-        Recurso: w3schools - markdown introduction 
-        Recurso: IONOS - tutorial de Markdown
-        Recurso: Extensión markdown Visual Studio Code (Markdown All in One)
+    Recurso: Adam Pritchard: GitHub. Explicación básica sintaxis Markdown 
+    Recurso: Página oficial Markdown - Sintaxis Markdown
+    Recurso: w3schools - markdown introduction 
+    Recurso: IONOS - tutorial de Markdown
+    Recurso: Extensión markdown Visual Studio Code (Markdown All in One)
 
-    2. Etiquetas básicas de Markdown
+ 2. Etiquetas básicas de Markdown
 
-        
