@@ -332,3 +332,41 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
     Si lo comparamos con un procesador de textos, podemos pensar en un párrafo como un elemento de bloque y una palabra enfatizada en negrita como un elemento de línea.
 
 4. Etiquetas básicas HTML
+    
+    - Encabezados (<h1>...<h6>) Permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. Son elementos de bloque.
+
+
+    - Párrafos (<p>). Se utilizan para encerrar párrafos de texto, entendiendo como párrafo un conjunto de frases relacionadas entre sí. Son elementos de bloque.
+
+    - Listas:
+
+        - Las listas desordenadas son aquellas en las que el orden de los ítems no es relevante, como en una lista de compras. Estas son encerradas en un elemento <ul> (unordered list).
+
+        - Las listas ordenadas son aquellas en las que el orden sí es relevante, como en una receta. Estas son encerradas en un elemento <ol> (ordered list).
+
+    Cada elemento de la lista se coloca dentro de un elemento <li> (list item).
+
+    - Enlaces (<a>). Para convertir algún texto dentro de un párrafo en un vínculo, sigue estos pasos:
+     
+     - Elige algún texto. Nosotros elegimos «Manifesto Mozilla».
+
+     - Encierra el texto en un elemento <a>, así: <a>Manifesto Mozilla</a>
+
+     - Añade al elemento <a> un atributo href, así:  <a href="">Manifesto Mozilla</a>
+
+     - Añade el valor de este atributo con la dirección web con la que conectar al vínculo:
+     <a href="https://www.mozilla.org/es-AR/about/manifesto/">Manifesto Mozilla</a>
+
+    - Salto de línea (<br/>) Inserta un “intro” en un párrafo.
+
+    - Línea separadora (<hr/>). Muestra una línea horizontal.
+
+    - Cita (<blockquote>) Formatea el texto como una cita. Es de tipo bloque.
+
+    - Más elementos en el documento “Fonaments d’HTML”
+
+5. Organización del código
+
+    Es fundamental que el código fuente HTML que generemos sea legible dado que normalmente no trabajaremos solos y que lo que hemos desarrollado sea legible puede ayudar a los que trabajan con nosotros a entender qué hemos hecho y por qué lo hacemos. Hay varias técnicas para que el código sea legible y esté bien organizado:
+
+
