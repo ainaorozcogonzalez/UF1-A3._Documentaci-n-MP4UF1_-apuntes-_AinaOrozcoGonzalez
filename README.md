@@ -45,3 +45,26 @@
 
     Navegamos en local hasta la carpeta raíz del repositorio local a vincular con el repositorio vacío recién creado en GitHub.
 
+    - **git init**
+    
+    Inicializamos el repositorio dentro de la carpeta raiz del mismo
+
+    - **git remote add origin https://github.com/AinaOrozcoGonzalez/BORRAR.git.**
+    
+    Una vez situados en la carpeta, añadimos como origen de ese repositorio al repositorio vacío de GitHub.
+   
+    - **git add .** 
+    
+    Añadimos todos los archivos al repositorio local
+    
+    - **git commit -m "first commit"** 
+
+    Commit es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto (se incluirán los archivos que hayamos hecho “add” anteriormente (en esta primera ocasión TODOS) y le ponemos nombre identificativo a la nueva versión con el parámetro -m.
+
+    - **git branch -M main**
+    
+    Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”. 
+
+    - **git push -u origin main**
+
+    Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
