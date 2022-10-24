@@ -369,4 +369,18 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Es fundamental que el código fuente HTML que generemos sea legible dado que normalmente no trabajaremos solos y que lo que hemos desarrollado sea legible puede ayudar a los que trabajan con nosotros a entender qué hemos hecho y por qué lo hacemos. Hay varias técnicas para que el código sea legible y esté bien organizado:
 
+    
+     - Comentarios. En un documento HTML podemos poner anotaciones que no se visualizarán cuando la página web se vea en el navegador pero que son útiles para desarrollar la web. La sintaxis es <!-- comentario --> 
+
+     - Sangrado del código. Las etiquetas HTML se abren y se cierran. El navegador web no interpreta ni saltos de página ni tabuladores pero para nuestro análisis del código necesitamos ver una estructura coherente.
+
+        <div>
+        <p>Contenido del párrafo <a href="http://web.org">enlace externo</a></p>
+        </div>
+
+        Como se puede ver, los elementos de línea (<a> en el ejemplo) no se sangran
+
+     - Organización de ficheros. Cuando la aplicación web es muy grande tendrá archivos de muchos formatos (.html, .css, imágenes, videos, etc..). Hemos de organizar nuestra aplicación en directorios para que todos esos ficheros estén bien ordenados. Un ejemplo para una aplicación no excesivamente grande puede ser:
+
+
 
