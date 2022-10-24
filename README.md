@@ -74,9 +74,25 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 3. Importar repositorio ya existente en GitHub.
 
     Vamos al repositorio a importar (Code) y copiamos su URL:
-    
+
     ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep2.png?raw=true)
 
     En repositorios, vamos a crear un repositorio nuevo:
+
+    Y vamos a la opción “import a repository” de la cabecera:
+
+    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep3.PNG?raw=true)
+
+    En “old repository’s clone URL” pegamos la URL del repositorio a importar mientras que en “Repository Name” ponemos el nombre que queremos que tenga nuestro repositorio clonado.
+
+    Después elegimos si queremos que el repositorio sea público o privado. En caso de que queramos activar GitHub pages para poder publicar el repositorio (sólo HTML + CSS básico, no CSS) ha de ser público.
+
+4. Cómo activar GitHub pages para un repositorio.
+
+    Ir al apartado SETTINGS
+
+    Ir a la opción “PAGES”. El repositorio ha de ser público para que pueda activarse “GitHub pages”. Si el repositorio es privado, GitHub solicita hacer un upgrade para poder hacerlo.
+
+    Escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”. Una vez procesado, nos muestra la URL del repositorio.
 
     ![]()
