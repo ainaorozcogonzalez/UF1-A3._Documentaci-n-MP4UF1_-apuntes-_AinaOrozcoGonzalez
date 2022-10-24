@@ -239,11 +239,11 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Las siglas de HTML corresponden con “HyperText Markup Language”, que tiene el siguiente significado:
 
-        - __HyperText__, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+     - __HyperText__, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
 
-        - __Markup__, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p>.
+     - __Markup__, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p>.
 
-        - __Language__, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web. Algo importante a tener en cuenta y con lo que no hay que confundirse, es que porque HTML sea un lenguaje no quiere decir que sea un lenguaje programación. HTML no lo es, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones, las funciones, etcétera.
+     - __Language__, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web. Algo importante a tener en cuenta y con lo que no hay que confundirse, es que porque HTML sea un lenguaje no quiere decir que sea un lenguaje programación. HTML no lo es, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones, las funciones, etcétera.
 
     Es decir, que HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de su contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
 
@@ -251,16 +251,16 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Las partes principales del elemento son:
 
-        - __La etiqueta de apertura__: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo-.
+     - __La etiqueta de apertura__: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo-.
 
 
-        - __La etiqueta de cierre__: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+     - __La etiqueta de cierre__: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
 
 
-        - __El contenido__: este es el contenido del elemento, que en este caso es sólo texto.
+     - __El contenido__: este es el contenido del elemento, que en este caso es sólo texto.
 
 
-        - __El elemento__: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+     - __El elemento__: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
 
     Los elementos pueden también tener atributos, que se ven así:
 
@@ -270,11 +270,11 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Los atributos siempre se incluyen en la etiqueta de apertura de un elemento y deben tener siempre:
 
-        - Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
+     - Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
     
-        - El nombre del atributo, seguido por un signo de igual (=).
+     - El nombre del atributo, seguido por un signo de igual (=).
     
-        - Comillas de apertura y de cierre, encerrando el valor del atributo.
+     - Comillas de apertura y de cierre, encerrando el valor del atributo.
 
     Puedes también colocar elementos dentro de otros elementos. Esto se llama anidamiento.
 
