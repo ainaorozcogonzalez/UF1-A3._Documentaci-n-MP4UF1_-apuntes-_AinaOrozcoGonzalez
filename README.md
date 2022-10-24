@@ -171,7 +171,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     * Enlaces:
         
-        [Link](https://ejemplo.com/ "Título opcional del enlace")
+        [Link](https://github.com/ "Título opcional del enlace")
 
         a) Primero se incluye el texto del link entre corchetes y posteriormente el link entre paréntesis).    
         
@@ -181,7 +181,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         
         Inline-style: 
         
-        ![alt text](https://github.com/img/icon48.png "Título opcional de la imagen")
+        ![alt text](https://github.com/img/icono.png "Título opcional de la imagen")
 
         Reference-style: 
         
@@ -396,4 +396,4 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     3. Encuentra y añade cualquiera de los iconos GRATUITOS al proyecto
 
-        Busca entre los iconos de la web de Fontawesome los que necesites y añade el nombre de icono y estilo con sus clases CSS dengro una etiqueta HTML <i> que ya te proporciona directamente la web.
+    Busca entre los iconos de la web de Fontawesome los que necesites y añade el nombre de icono y estilo con sus clases CSS dengro una etiqueta HTML <i> que ya te proporciona directamente la web.
