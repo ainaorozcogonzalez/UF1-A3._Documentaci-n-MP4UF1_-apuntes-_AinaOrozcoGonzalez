@@ -68,3 +68,9 @@
     - **git push -u origin main**
 
     Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.
+
+El comando git pull hará la inversa de **git push**, es decir, “bajará” los cambios que hayamos hecho directamente en el repositorio GutHub (en la web)
+
+3. Importar repositorio ya existente en GitHub.
+
+    Vamos al repositorio a importar (Code) y copiamos su URL:
