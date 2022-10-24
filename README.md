@@ -95,4 +95,21 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 
     Escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”. Una vez procesado, nos muestra la URL del repositorio.
 
-    ![]()
+    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/REP4.png?raw=true)
+
+
+# Markdown
+
+Introducción a lenguaje de marcas “Markdown”, usado por GitHub
+
+    1. Recursos
+
+        Recurso: Adam Pritchard: GitHub. Explicación básica sintaxis Markdown 
+        Recurso: Página oficial Markdown - Sintaxis Markdown
+        Recurso: w3schools - markdown introduction 
+        Recurso: IONOS - tutorial de Markdown
+        Recurso: Extensión markdown Visual Studio Code (Markdown All in One)
+
+    2. Etiquetas básicas de Markdown
+
+        
