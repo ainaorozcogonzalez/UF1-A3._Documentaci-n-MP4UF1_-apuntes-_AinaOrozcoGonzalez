@@ -114,9 +114,9 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     * **Encabezados**. Llevan ya asociado un estilo por defecto cada uno.
 
-    # H1
-    ## H2
-    ### H3
-    #### H4
-    ##### H5
-    ###### H6
+     # H1
+     ## H2
+     ### H3
+     #### H4
+     ##### H5
+     ###### H6
