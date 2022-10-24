@@ -74,3 +74,4 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 3. Importar repositorio ya existente en GitHub.
 
     Vamos al repositorio a importar (Code) y copiamos su URL:
+    ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep2.png?raw=true)
