@@ -191,11 +191,11 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     * Tablas:
 
-        | Tables        | Are           | Cool  |
-        | ------------- |:-------------:| -----:|
-        | col 3 is      | right-aligned | $1600 |
-        | col 2 is      | centered      |   $12 |
-        | zebra stripes | are neat      |    $1 |
+        | Encabezado1        | Encabezado2         | Encabezado2  |
+        | ------------------ |:-------------------:| ------------:|
+        | Item1              | boligrafos          | $20          |
+        | Item2              | Grapadoras          | $1000        |
+        | Item3              | Lapices             | $150         |
 
         a) Los dos puntos se usan para alinear las columnas (izquierda, centrado, derecha).
         
@@ -210,15 +210,10 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         [^1]: Aquí encuentras el texto de la nota al pie de página.
 
     * Listas de verificación:
-        - [ ] A
-        - [x] B
+        - [x ] A
+        - [] B
         - [ ] C
         
-        (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacias)
-
-
-
-
 # HTML
 
 ## Introducción a HTML
