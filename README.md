@@ -380,7 +380,20 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
         Como se puede ver, los elementos de línea (<a> en el ejemplo) no se sangran
 
-     - Organización de ficheros. Cuando la aplicación web es muy grande tendrá archivos de muchos formatos (.html, .css, imágenes, videos, etc..). Hemos de organizar nuestra aplicación en directorios para que todos esos ficheros estén bien ordenados. Un ejemplo para una aplicación no excesivamente grande puede ser:
+     - Organización de ficheros. Cuando la aplicación web es muy grande tendrá archivos de muchos formatos (.html, .css, imágenes, videos, etc..). Hemos de organizar nuestra aplicación en directorios para que todos esos ficheros estén bien ordenados.
+
+6. Fontawesome
+
+    1. Darse de alta en la página web https://fontawesome.com/
 
 
+    2. Añadir tu Kit’s code al proyecto:
 
+	    <script src="https://kit.fontawesome.com/09f87768b9.js" crossorigin="anonymous"></script>
+
+        Copia tu “kit's code” dentro de la sección <head> de cada página en tu proyecto donde quieras usar fontawrsome mediante ese kit. La parte subrayada dependerá del ID de tu kit’s code.
+
+
+    3. Encuentra y añade cualquiera de los iconos GRATUITOS al proyecto
+
+        Busca entre los iconos de la web de Fontawesome los que necesites y añade el nombre de icono y estilo con sus clases CSS dengro una etiqueta HTML <i> que ya te proporciona directamente la web.
