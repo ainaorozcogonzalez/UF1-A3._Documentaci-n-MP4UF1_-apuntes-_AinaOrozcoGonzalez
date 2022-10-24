@@ -217,3 +217,68 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacias)
 
 
+
+
+# HTML
+
+## Introducción a HTML
+
+    1. Recursos
+        
+        Recurso: Documento Fonaments d’HTML
+
+        Recurso:  Mozilla Developer- HTML básico
+
+        Recurso: Conversor PNG a ICO online convertICO
+
+        Recurso: Insertar icono de pestaña en HTML
+
+        Servicio: fontawesome
+
+    2. Características HTML
+
+        Las siglas de HTML corresponden con “HyperText Markup Language”, que tiene el siguiente significado:
+
+            - __HyperText__, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+
+            - __Markup__, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p>.
+
+            - __Language__, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web. Algo importante a tener en cuenta y con lo que no hay que confundirse, es que porque HTML sea un lenguaje no quiere decir que sea un lenguaje programación. HTML no lo es, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones, las funciones, etcétera.
+
+        Es decir, que HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de su contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera.
+
+        Esto implica que la información a mostrar ha de ir “etiquetados” para formar elementos que el navegador web sepa interpretar de qué tipo de información se trata y como tal sepa como representarlos.
+
+        Las partes principales del elemento son:
+
+            - __La etiqueta de apertura__: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del párrafo-.
+
+
+            - __La etiqueta de cierre__: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+
+
+            - __El contenido__: este es el contenido del elemento, que en este caso es sólo texto.
+
+
+            - __El elemento__: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+
+        Los elementos pueden también tener atributos, que se ven así:
+
+        Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.
+
+        Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aquí class es el nombre del atributo y editor-note el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demás cosas.
+
+        Los atributos siempre se incluyen en la etiqueta de apertura de un elemento y deben tener siempre:
+
+        - Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
+    
+        - El nombre del atributo, seguido por un signo de igual (=).
+    
+        - Comillas de apertura y de cierre, encerrando el valor del atributo.
+
+        Puedes también colocar elementos dentro de otros elementos. Esto se llama anidamiento.
+
+        Algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo, el elemento <img>: <img src="images/firefox-icon.png" alt="Mi imagen de prueba"> posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado.
+
+    
+    2. Características HTML
