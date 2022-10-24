@@ -4,7 +4,7 @@
 
 ## Como crear un repositorio
  1. Crear un repositorio nuevo
-![Imagen de como crear un repositorio](https://raw.githubusercontent.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/main/img/rep1.png?token=GHSAT0AAAAAAB2CNR7J4TYUB2ZK3EBCYLT2Y2W2T5Q)
+![Imagen de como crear un repositorio](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep1.png?raw=true)
  2. Como configurar un repositorio nuevo.
 
     En “repository name” ponemos el nombre que queremos que tenga nuestro nuevo repositorio.
@@ -74,4 +74,9 @@ El comando git pull hará la inversa de **git push**, es decir, “bajará” lo
 3. Importar repositorio ya existente en GitHub.
 
     Vamos al repositorio a importar (Code) y copiamos su URL:
+    
     ![](https://github.com/ainaorozcogonzalez/UF1-A3._Documentaci-n-MP4UF1_-apuntes-_AinaOrozcoGonzalez/blob/main/img/rep2.png?raw=true)
+
+    En repositorios, vamos a crear un repositorio nuevo:
+
+    ![]()
