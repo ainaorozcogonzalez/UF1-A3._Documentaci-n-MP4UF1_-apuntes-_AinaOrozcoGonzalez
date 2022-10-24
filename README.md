@@ -223,7 +223,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
 ## Introducción a HTML
 
-    1. Recursos
+1. Recursos
         
         Recurso: Documento Fonaments d’HTML
 
@@ -235,7 +235,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
         Servicio: fontawesome
 
-    2. Características HTML
+2. Características HTML
 
         Las siglas de HTML corresponden con “HyperText Markup Language”, que tiene el siguiente significado:
 
@@ -281,4 +281,4 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         Algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo, el elemento <img>: <img src="images/firefox-icon.png" alt="Mi imagen de prueba"> posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado.
 
     
-    2. Características HTML
+3. Estructura documento HTML
