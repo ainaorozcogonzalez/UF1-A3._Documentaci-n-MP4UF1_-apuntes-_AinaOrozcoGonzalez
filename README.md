@@ -169,4 +169,51 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         </html>
         ``` 
 
+    * Enlaces:
         
+        [Link](https://ejemplo.com/ "Título opcional del enlace")
+
+        a) Primero se incluye el texto del link entre corchetes y posteriormente el link entre paréntesis).    
+        
+        b) El “título opcional del enlace” es el texto alternativo al pasar el ratón por encima.
+
+    * Imágenes:
+        
+        Inline-style: 
+        
+        ![alt text](https://github.com/img/icon48.png "Título opcional de la imagen")
+
+        Reference-style: 
+        
+        ![alt text][logo]
+
+        [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+    * Tablas:
+
+        | Tables        | Are           | Cool  |
+        | ------------- |:-------------:| -----:|
+        | col 3 is      | right-aligned | $1600 |
+        | col 2 is      | centered      |   $12 |
+        | zebra stripes | are neat      |    $1 |
+
+        a) Los dos puntos se usan para alinear las columnas (izquierda, centrado, derecha).
+        
+        b) No es necesario que estén alineadas verticalmente. Solo a nivel visual para claridad del código.
+        
+        c) Se han de poner al menos tres guiones para separar cada encabezado
+
+    * Notas al pie de página:
+
+        Texto con enlace a nota de pie de página [^1]
+
+        [^1]: Aquí encuentras el texto de la nota al pie de página.
+
+    * Listas de verificación:
+        - [ ] A
+        - [x] B
+        - [ ] C
+        
+        (Dejar un espacio en blanco entre los dos corchetes en las que aparezcan vacias)
+
+
