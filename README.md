@@ -23,5 +23,21 @@
     
     Situados en esta carpeta “raíz” de GIT, y conociendo la URL del repositorio Gigit tHub a clonar, usaremos la orden **git clone https://github.com/Usuario/repositorioRemoto.git**  para que se cree el clon local (crea también la carpeta).
     
-    Una vez creada, para trabajar con el repositorio local, nos desplazamos a la raíz del repositorio clonado y que será idéntico al remoto de GitHub para trabajar con él, realizar modificaciones y finalmente sincronizar los cambios con GitHub cada vez que queramos actualizar el repositorio de GitHub de forma que se implementen los cambios.:
+    Una vez creada, para trabajar con el repositorio local, nos desplazamos a la raíz del repositorio clonado y que será idéntico al remoto de GitHub para trabajar con él, realizar modificaciones y finalmente sincronizar los cambios con GitHub cada vez que queramos actualizar el repositorio de GitHub de forma que se implementen los cambios:
+
+    - **git init** 
+    
+    Inicializamos el repositorio GIT en la carpeta donde estamos situados.
+    
+    - **git add "archivo” o  git add .** (punto: contracción de *.*) 
+    
+    Elementos que van a incluirse en la nueva versión  Si se incluye el wildcard “.” se incluirán todos los archivos del repositorio.
+    
+    - **git commit -m "añadir título"**
+
+    Descripción de la versión o fecha, o cualquier indicador que defina qué cambios se han hecho en la versión
+    
+    - **git push origin main** (“main” o el nombre de la rama a sincronizar)
+    
+    Se sincronizan los elementos incluidos en el anterior commit al repositorio remoto y rama indicadas en los puntos anteriores..
 
