@@ -210,8 +210,8 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
         [^1]: Aquí encuentras el texto de la nota al pie de página.
 
     * Listas de verificación:
-        - [x ] A
-        - [] B
+        - [x] A
+        - [ ] B
         - [ ] C
         
 # HTML
@@ -273,9 +273,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Puedes también colocar elementos dentro de otros elementos. Esto se llama anidamiento.
 
-    Algunos elementos no poseen contenido, y son llamados elementos vacíos. Por ejemplo, el elemento <img>: <img src="images/firefox-icon.png" alt="Mi imagen de prueba"> posee dos atributos, pero no hay etiqueta de cierre </img> ni contenido encerrado.
 
-    
 3. Estructura documento HTML
 
     Un documento HTML tiene la siguiente estructura básica:
@@ -341,16 +339,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Cada elemento de la lista se coloca dentro de un elemento <li> (list item).
 
-    - Enlaces (<a>). Para convertir algún texto dentro de un párrafo en un vínculo, sigue estos pasos:
-     
-     - Elige algún texto. Nosotros elegimos «Manifesto Mozilla».
-
-     - Encierra el texto en un elemento <a>, así: <a>Manifesto Mozilla</a>
-
-     - Añade al elemento <a> un atributo href, así:  <a href="">Manifesto Mozilla</a>
-
-     - Añade el valor de este atributo con la dirección web con la que conectar al vínculo:
-     <a href="https://www.mozilla.org/es-AR/about/manifesto/">Manifesto Mozilla</a>
+    - Enlaces (<a>). Para convertir algún texto dentro de un párrafo en un víncu.
 
     - Salto de línea (<br/>) Inserta un “intro” en un párrafo.
 
