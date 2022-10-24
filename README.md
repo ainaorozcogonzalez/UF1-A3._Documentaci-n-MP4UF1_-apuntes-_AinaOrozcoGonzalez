@@ -120,3 +120,53 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
      #### H4
      ##### H5
      ###### H6
+
+    * **Estilos de letra:**
+        Itálica o cursiva: *texto* o _texto_
+        Negrita: **texto** o __texto__
+        : ~~palabra~~ (ALT+126)
+        Anidar estilos: **palabra1  _palabra2_** (itálicas pero la segunda además negrita).
+
+    * Listas:
+
+        * ORDENADAS
+         1. Primer elemento de lista
+
+         2. Segundo elemento de lista
+
+         (El número de orden no ha de ser necesariamente consecutivo)
+         
+         Tabulación→ 1. Elemento de sublista ordenado
+        
+        * DESORDENADAS
+
+            *  Elemento de lista desordenada
+
+            -  Otro elemento de lista desordenada
+            
+            + Otro elemento de lista desordenada
+            
+            (Se puede elegir cualquiera de los tres símbolos para crear una lista desordenada)
+            
+            Tabulación→ * Elemento de sublista desordenado
+
+    * Párrafos:
+
+        Para crear un bloque de texto nuevo (etiqueta), se introduce una línea en blanco.
+
+    * Código:
+
+        El código se ha de incluir entre acentos graves (`). Si en el código aparece un acento grave, se ha de introducir el carácter dos veces al principio de la sección del código.
+
+        ``Todo esto es `código`.``
+
+        También se puede marcar el área correspondiente al código insertando tres acentos graves al principio y al final. Junto a los tres iniciales se puede indicar el lenguaje (HTML, JavaScript) para que incluso se muestre con los colores adecuados:
+
+        ```html
+        <html>
+            <head>
+            </head>
+        </html>
+        ``` 
+
+        
