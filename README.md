@@ -426,27 +426,47 @@ __3. TIPOS DE SELECTORES__
 
     Dentro de cada etiqueta que queramos que tengan el mismo estilo escribiremos class="NombreClase", y en el head escribiremos _.NombreClase_ 
     
+    .example {
+   property: value;
+   property2: value2;
+}
+    
 
 + SELECTOR DE ID
 
     Es parecido al selector de clase, solo tenemos que escribir id="NombreID", dentro de la etiqueta, y en head escribiremos _#NombreID_
 
+#example {
+   property: value;
+   property2: value2;
+}
 
 + SELECTOR UNIVERSAL
 
     Este tipo de selector selecciona todos los elementos de la página para aplicar estilos.
-    Por ejemplo:
-    * { border: 1px solid #000000}, para poner que toda la pagina tenga un borde negro liso de 1 píxel.
+    
+       * {
+         border: 1px solid #000000;
+   }
+
  
 + SELECTOR DE ATRIBUTOS
 
     Selecciona elementos en función del atributo, por ejemplo si queremos que todas las fotos con el atributo _alt_ tenga un borde negro escribiremos:
-    img [alt] {border: 1px solid }
+    
+       img[alt] {
+      border: 1px solid #000000;
+   }
 
 + SELECTOR DE HIJOS
 
     Sirve para seleccionar elementos concretos y aplicarles un estilo especifico. Por ejemplo: 
     h1>strong { color:rosa }, hará que solo los títulos _h1_ que tengan el selector de strong sean rosas.
+    
+       h3>strong {
+      color: blue;
+   }
+
 
 + SELECTOR DE DESCENDIENTES
 
