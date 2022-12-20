@@ -382,7 +382,7 @@ Introducción a lenguaje de marcas “Markdown”, usado por GitHub
 
     Busca entre los iconos de la web de Fontawesome los que necesites y añade el nombre de icono y estilo con sus clases CSS dengro una etiqueta HTML <i> que ya te proporciona directamente la web.
 
-## 3. CSS ##
+# CSS
 
 El CSS, nos ayudará a dar forma a nuestros documentos HTML, se encargará de la parte estética.
 
